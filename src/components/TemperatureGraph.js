@@ -13,7 +13,7 @@ const TemperatureGraph = () => {
           datasets: [
             {
               label: 'Average Temperature Per Hour (°Celsius)',
-              data: [20,20,20,20,20,20,21,21,21,22,23,24,25,24,25,24,23,22,21,21,21,21,21],
+              data: [20,20,20,20,20,20,21,21,21,22,23,24,25,25,25,24,23,22,21,21,21,21,21],
               backgroundColor:
                 'rgba(245, 54, 54)',
               borderWidth: 1,
