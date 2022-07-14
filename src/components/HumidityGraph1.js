@@ -4,7 +4,7 @@ import { Bar, defaults } from 'react-chartjs-2'
 defaults.global.tooltips.enabled = false
 defaults.global.legend.position = 'bottom'
 
-const HumidityGraph = () => {
+const HumidityGraph1 = () => {
   return (
     <div><br></br>
       <Bar
@@ -20,8 +20,8 @@ const HumidityGraph = () => {
             },
           ],
         }}
-        height={400}
-        width={600}
+        height={300}
+        width={500}
         options={{
           maintainAspectRatio: false,
           scales: {
@@ -44,4 +44,4 @@ const HumidityGraph = () => {
   )
 }
 
-export default HumidityGraph
+export default HumidityGraph1

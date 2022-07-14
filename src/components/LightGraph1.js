@@ -4,7 +4,7 @@ import { Bar, defaults } from 'react-chartjs-2'
 defaults.global.tooltips.enabled = false
 defaults.global.legend.position = 'bottom'
 
-const LightGraph = () => {
+const LightGraph1 = () => {
   return (
     <div><br></br>
       <Bar
@@ -20,8 +20,8 @@ const LightGraph = () => {
             },
           ],
         }}
-        height={400}
-        width={600}
+        height={300}
+        width={500}
         options={{
           maintainAspectRatio: false,
           scales: {
@@ -44,4 +44,4 @@ const LightGraph = () => {
   )
 }
 
-export default LightGraph
+export default LightGraph1
