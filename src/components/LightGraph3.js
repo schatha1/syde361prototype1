@@ -4,11 +4,8 @@ import { Bar, defaults } from 'react-chartjs-2'
 defaults.global.tooltips.enabled = false
 defaults.global.legend.position = 'bottom'
 
-<<<<<<<< HEAD:src/components/LightGraph3.js
+
 const LightGraph3 = () => {
-========
-const LightGraph1 = () => {
->>>>>>>> b0b65d252c3bdd4682efe3ccd50e68ff5b08c02e:src/components/LightGraph1.js
   return (
     <div><br></br>
       <Bar
@@ -48,8 +45,4 @@ const LightGraph1 = () => {
   )
 }
 
-<<<<<<<< HEAD:src/components/LightGraph3.js
 export default LightGraph3
-========
-export default LightGraph1
->>>>>>>> b0b65d252c3bdd4682efe3ccd50e68ff5b08c02e:src/components/LightGraph1.js
